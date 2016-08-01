@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="夜景_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\夜景_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="夜景_F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\夜景_F.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_66.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_68.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_69.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_77" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_77.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_78" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_78.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_79.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_0_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_0_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_1_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_66.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="烟花_2_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\烟花_2_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
